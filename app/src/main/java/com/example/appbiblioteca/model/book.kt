@@ -6,5 +6,6 @@ data class Book(
     val author: String,
     val genre: String,
     val description: String,
-    val available: Boolean
+    val available: Boolean = true,
+    val rentedByUserId: Int? = null
 )
